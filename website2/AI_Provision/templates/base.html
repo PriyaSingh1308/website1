@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block tittle %} {% endblock tittle %}</title>
+    <link  href="static/style.css"  rel = "stylesheet">
+    
+</head>
+<body>
+    <div id="nav">
+        <img src ="static/1.jpg">
+        <a href='/home'>home</a>
+        <a href='/plateform'>plateform</a>
+        <a href='/solution'>solution</a>
+        <a href='/resources'>resources</a>
+        <a href='/prizing'>prizing</a>
+        <a href='/company'>company</a>
+     </div>
+     <div id = a>
+        <video autoplay loop muted src="static/0001.mp4"></video>
+   </div>
+    
+    {% block body %} {% endblock body  %}
+</body>
+</html>
